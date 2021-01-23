@@ -1,5 +1,5 @@
 local shell = require "shell"
-local default_repo = "https://gitee.com/sh0aky/transporter/raw"
+local default_repo = "https://gitee.com/sh0aky/minecraft-oc/transporter/raw"
 local default_branch = "master"
 local template = "wget %s/%s"
 
@@ -26,4 +26,4 @@ shell.execute("mkdir conf")
 shell.execute(prefix .. "/src/conf/config.lua "  .. dir .. "/conf/config.lua")
 shell.execute(prefix .. "/src/tools/readlabel.lua "  .. dir .. "/tools/readlabel.lua")
 
-print("installed successfully! plz read https://github.com/shoaky009/transporter/blob/master/README.md, and edit conf/config.lua make it work")
+print("installed successfully! plz read https://github.com/shoaky009/minecraft-oc/transporter/blob/master/README.md, and edit conf/config.lua make it work")
