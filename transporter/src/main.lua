@@ -22,7 +22,7 @@ function Main.start()
 end
 
 function Main.loop()
-    local outputSlot = tp.getStackInSlot(4, 1)
+    local outputSlot = tp.getStackInSlot(outputSide, 1)
     if outputSlot and outputSlot.size > 0 then
         return
     end
