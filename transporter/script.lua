@@ -1,7 +1,7 @@
 local shell = require "shell"
-local default_repo = "https://gitee.com/sh0aky/minecraft-oc/transporter/raw"
+local default_repo = "https://gitee.com/sh0aky/minecraft-oc/raw"
 local default_branch = "master"
-local template = "wget %s/%s"
+local template = "wget %s/%s/transporter"
 
 local args, _ = shell.parse(...)
 local repo;
